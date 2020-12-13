@@ -1,16 +1,25 @@
 {
 	"FileVersion": 3,
 	"EngineAssociation": "4.26",
-	"Category": "",
-	"Description": "",
+	"Category": "training",
+	"Description": "Design patterns in an UE4 project",
 	"Modules": [
 		{
 			"Name": "UnrealPatterns",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"AIModule",
+				"GameplayAbilities",
+				"UMG"
 			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
 		}
 	]
 }
